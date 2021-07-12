@@ -1,22 +1,22 @@
 @use '~@angular/material' as mat;
 
 @use 'sass:map';
-@use './app/pages/component-category-list/component-category-list-theme';
-@use './app/pages/component-sidenav/component-sidenav-theme';
-@use './app/pages/component-viewer/component-viewer-theme';
-@use './app/pages/guide-list/guide-list-theme';
-@use './app/pages/homepage/homepage-theme';
-@use './app/pages/not-found/not-found-theme';
-@use './app/shared/carousel/carousel-theme';
-@use './app/shared/example-viewer/example-viewer-theme';
-@use './app/shared/footer/footer-theme';
-@use './app/shared/navbar/navbar-theme';
-@use './app/shared/table-of-contents/table-of-contents-theme';
-@use './app/shared/cookie-popup/cookie-popup-theme';
-@use './styles/api-theme';
-@use './styles/markdown-theme';
-@use './styles/svg-theme';
-@use './styles/tables-theme';
+@use './app/pages/component-category-list/_component-category-list-theme';
+@use './app/pages/component-sidenav/_component-sidenav-theme';
+@use './app/pages/component-viewer/_component-viewer-theme';
+@use './app/pages/guide-list/_guide-list-theme';
+@use './app/pages/homepage/_homepage-theme';
+@use './app/pages/not-found/_not-found-theme';
+@use './app/shared/carousel/_carousel-theme';
+@use './app/shared/example-viewer/_example-viewer-theme';
+@use './app/shared/footer/_footer-theme';
+@use './app/shared/navbar/_navbar-theme';
+@use './app/shared/table-of-contents/_table-of-contents-theme';
+@use './app/shared/cookie-popup/_cookie-popup-theme';
+@use './styles/_api-theme';
+@use './styles/_markdown-theme';
+@use './styles/_svg-theme';
+@use './styles/_tables-theme';
 
 // Styles for the docs app that are based on the current theme.
 @mixin theme($theme) {
